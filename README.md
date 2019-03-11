@@ -4,17 +4,16 @@ A homemade quadcopter recreating a real aircraft cockpit with embedded Arduino, 
 
 Here is the end result : 
 
-![Cockpit](http://url/to/img.png)
+![Cockpit](https://raw.githubusercontent.com/RobinBaruffa/Quadcopter-cockpit/master/TestVideo4.mp4)
 
-![The quadcopter itself](http://url/to/img.png)
+![The quadcopter itself](https://im5.ezgif.com/tmp/ezgif-5-6fd5f79d7679.gif)
+
 The quadcopter is entirely custom built from scratch, with a 3S 5'500mAh, MarsPower 920kv motors, 1045 propellers & CC3D flight controller
 
-# Features
+The quadcopter has an electronic circuit embedded with an Arduino microcontroller sending telemetry data from different sensor (accelerometer MPU6050, gyroscope GY-271, altimeter/pressure sensor BMP180). All the informations are encapsulated in a csv format packet to be sent by a NRF24l01+ 2.4Ghz module to an Arduino on the ground.
+The Arduino then transfer the data to the Processing program via serial protocol. In parallel an embedded camera streams using a 5.8 Ghz transmitter/receiver that is fed to the Processing program through an RCA to USB adapter.
+Then the code manages the real time display of the quadcopter instruments.
+The radio receiver and transmitter has been modified to improve range and battery life
 
-1 [Attitude indicator]
 
-2 [Altimeter]
-
-3 [Custom radio transmitter & receiver]
-
-Realized during the ISN course taught at Centre International de Valbonne, CIV
+Realized during the ISN course taught at Centre International de Valbonne, CIV, 2016
