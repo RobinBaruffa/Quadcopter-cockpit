@@ -4,7 +4,7 @@ A homemade quadcopter recreating a real aircraft cockpit with embedded Arduino, 
 
 Here is the end result : 
 
-![Cockpit](https://im5.ezgif.com/tmp/ezgif-5-6fd5f79d7679.gif)
+![Cockpit](https://raw.githubusercontent.com/RobinBaruffa/Quadcopter-cockpit/master/ezgif-5-6fd5f79d7679.gif)
 
 ![The quadcopter itself](https://raw.githubusercontent.com/RobinBaruffa/Quadcopter-cockpit/master/P1080888.JPG)
 
