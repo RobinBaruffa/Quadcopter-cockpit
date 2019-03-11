@@ -4,9 +4,9 @@ A homemade quadcopter recreating a real aircraft cockpit with embedded Arduino, 
 
 Here is the end result : 
 
-![Cockpit](https://raw.githubusercontent.com/RobinBaruffa/Quadcopter-cockpit/master/TestVideo4.mp4)
+![Cockpit](https://im5.ezgif.com/tmp/ezgif-5-6fd5f79d7679.gif)
 
-![The quadcopter itself](https://im5.ezgif.com/tmp/ezgif-5-6fd5f79d7679.gif)
+![The quadcopter itself](https://raw.githubusercontent.com/RobinBaruffa/Quadcopter-cockpit/master/P1080888.JPG)
 
 The quadcopter is entirely custom built from scratch, with a 3S 5'500mAh, MarsPower 920kv motors, 1045 propellers & CC3D flight controller
 
